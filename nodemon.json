@@ -1,0 +1,5 @@
+{
+  "exec": "vite-node -c vite-node.config.ts src/server.ts",
+  "watch": ["src/server.ts", "src/api/**/*.ts"],
+  "ext": "js,ts"
+}

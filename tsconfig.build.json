@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "build"
+  },
+  "include": ["src/server.ts", "src/api/**"],
+  "exclude": ["node_modules", "insane-backend/test", "build", "**/*spec.ts"]
+}
